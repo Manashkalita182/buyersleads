@@ -11,7 +11,7 @@
   "db:generate": "dotenv -e .env drizzle-kit generate",
   "db:push": "dotenv -e .env drizzle-kit push",
   "db:introspect": "dotenv -e .env drizzle-kit introspect"
-}
+},
 
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
