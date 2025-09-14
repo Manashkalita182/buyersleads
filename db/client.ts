@@ -1,7 +1,7 @@
 // src/db/client.ts
 import { Pool } from "pg";
 import { drizzle } from "drizzle-orm/node-postgres";
-import * as schema from "./schema";
+import * as schema from "../src/db/schema";
 
 // Read the DATABASE_URL from your .env
 const pool = new Pool({

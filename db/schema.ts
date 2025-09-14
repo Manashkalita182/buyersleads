@@ -36,3 +36,5 @@ export const buyerHistory = pgTable('buyer_history', {
   changedAt: timestamp('changedAt').defaultNow().notNull(),
   diff: json('diff').notNull(),
 });
+
+

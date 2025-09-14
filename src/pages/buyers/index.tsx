@@ -1,7 +1,7 @@
 
 // src/pages/buyers/index.tsx
 import { GetServerSideProps } from "next";
-import { db } from "../../db/client";
+import { db } from "../../../db/client";
 
 
 import * as schema from "@/db/schema";
