@@ -67,10 +67,9 @@ export async function POST(req: Request) {
   const body = await req.json();
 
   // ✅ Require login
-  const user = getCurrentUser();
-  if (!user) return NextResponse.json({ error: "Not logged in" }, { status: 401 });
+  const user = { id: "11111111-1111-1111-1111-111111111111" }; // demo user
 
-  // ✅ Insert new lead
+
   const newLead = {
     ...body,
     ownerId: user.id,

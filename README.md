@@ -1,6 +1,23 @@
 A mini CRM-style app to capture, list, and manage buyer leads.
 Built with Next.js (App Router) + TypeScript + Supabase + Drizzle ORM + Zod.
 
+## Getting Started
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/Manashkalita182/buyersleads.git
+   cd buyersleads
+Install dependencies
+
+bash
+Copy code
+npm install
+Run the development server
+
+bash
+Copy code
+npm run dev
+
 🚀 Features
 
 Create new leads with validation (Zod, client + server)
@@ -156,3 +173,5 @@ Polish/Extras: ✅ (audit trail, a11y)
 
 A ready-to-use sample file is included for testing imports:
 leads-sample.csv
+
+
